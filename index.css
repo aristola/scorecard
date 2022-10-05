@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Digital Numbers";
+    src: url("digital.ttf");
+}
+
+body {
+    background: darkred;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.box {
+    padding: 10px 10px 50px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 35px;
+}
+
+.score-box-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-family: Digital Numbers, sans-serif;
+    font-size: 100px;
+}
+.score-box-guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-family: Digital Numbers, sans-serif;
+    font-size: 100px;
+}
+/* .score-box-leader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-family: Digital Numbers, sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0 10px white;
+} */
+
+.btn-group {
+    margin-top: 20px
+}
+
+.score-btn {
+    background: none;
+    border: 1px solid lightpink;
+    border-radius: 4px;
+    color: lightpink;
+    font-size: 20px;
+    margin: 0px 4px;
+    font-family: Digital Numbers, sans-serif;
+    min-width: 35px;
+    padding: 5px 10px;
+}
+
+.reset-btn-section {
+    display: display;
+    margin: 0 auto;
+}
+
+#reset-btn {
+    display: block;
+    margin: 30px auto;
+    border: none;
+    background: lightpink;
+    color: darkred;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
